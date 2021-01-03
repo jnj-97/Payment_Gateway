@@ -1,0 +1,78 @@
+.Donate-button {
+	position: fixed;
+	top:60%;
+	left:40%;
+	border: 5px solid black;
+	background: rgb(256, 256, 256);
+	color: black; 
+	font-size: 100px;
+	padding:10px;
+	border-radius: 25px;
+	font-family:monospace;
+	box-shadow: 5px 10px rgba(0,0,0,0.3); 
+}
+.Donate-button:hover {
+	background:rgba(106, 72, 111,0.3);
+}
+img {
+	height:100%;
+	width:100%;
+	display:inline;
+}
+#background {
+	background-image: url("336-3369684_home-web-design-education-website-background.png");
+	width:100%;
+	height:645px;
+}
+.payment-methods > button {
+	height:100px;
+	width:100px;
+	display:inline-block;
+	box-shadow:5px 3px rgba(255, 255, 212,0.3);
+	border:solid black;
+	transition-delay:350ms;
+	margin:10px;
+}
+td > input {
+	margin:27px;
+	padding:10px;
+}
+table
+{
+	font-weight: 10px;
+	font-size: 30px;
+	font-style: bold;
+	padding:10px;
+	margin:20px;
+}
+.payment-methods > button:hover {
+	background:rgb(67, 182, 158);
+	box-shadow:none;
+	margin:10px;
+}
+.Final-Button {
+	position:fixed;
+	top:610px;
+	left:500px;
+	padding:16px;
+	font-size:24px;
+	border:solid 5px blue;
+	border-radius:10px;
+	font-family:arial;
+	background:rgba(255,0,0,0.4);
+	box-shadow:5px 5px rgba(250,0,0,0.3);
+	transition-delay:300ms;
+	width:200px;
+
+
+}
+.Final-Button:hover {
+	background:rgba(256,256,256,0.6);
+	box-shadow:none;
+
+}
+.Extra {
+	color:red;
+	font-weight: 30px;
+	
+}
