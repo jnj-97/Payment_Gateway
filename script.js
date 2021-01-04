@@ -38,8 +38,7 @@ else if (payment_method==undefined)
 	}
 else
 {
-	console.log("Hi")
-	document.getElementsByClassName("Extra")[0].innerHTML="";
+	document.getElementsByClassName("Extra")[0].innerHTML="Thank You. A Receipt Has been sent to your email";
 	var templateParams = {
     Name: name ,
     Email: email,
